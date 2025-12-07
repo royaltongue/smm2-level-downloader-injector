@@ -4,6 +4,7 @@
 Massive thanks to:
 
 [TheGreatRambler](https://github.com/TheGreatRambler) - For making the [MariOver API](https://github.com/TheGreatRambler/MariOver) and making any of this possible 
+[DarkFlare](https://www.youtube.com/@DarkFlare) - For creating a cheat to mostly remove background music from Mario Maker 2 in the description of [this video](https://www.youtube.com/watch?v=vQd758VzOug)
 
 # Description
 Leveraging the MariOver API, this **very rudimentary** tool will download Mario Maker 2 levels from the official Nintendo servers, rename them to a slot within Coursebot, and "inject" the level into a Mario Maker 2 save.
@@ -45,3 +46,11 @@ Some of these could be fixed by downloading further data from the MariOver API, 
 
     b) Slots 120-179 are "Downloaded Courses" and do not have editor capabilities
 10) Open your emulator, or inject the save using Checkpoint, and the level should now be in Coursebot
+
+# Bonus
+If you are playing in Ryujinx, you can remove the background music from Mario Maker 2 while still keeping all of the shell bops and other sound effects
+
+1) In Ryujinx, right click Mario Maker 2 and select "Open Mods Directory"
+2) Copy entire "cheats" folder to that directory
+3) Back in Ryujinx, right click Mario Maker 2 again and select "Manage Cheats"
+4) Ensure the cheat is enabled, and save
