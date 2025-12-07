@@ -21,7 +21,9 @@ This tool only replaces the **level data** and not the **level metadata**. As su
 * Level thumbnails will not be the correct one from your replaced level
 * Level statistics will not be the correct ones from your replaced level
 * The maker will not be the correct one from your replaced level
-* After loading into a level, the level card will be entirely incorrect 
+* After loading into a level, the level card will be entirely incorrect
+
+Some of these could be fixed by downloading further data from the MariOver API, but no promises I will get to that
 
 # How To Use
 0) **MAKE SURE YOUR EMULATROR IS CLOSED BEFORE INJECTING FILES**
