@@ -39,7 +39,8 @@ The GUI version is much nicer! It has the following features:
 * Shows the course thumbnail upon fetching information
 * Can show full course overview thumbnail
 * Can download either thumbnail
-* Graphical save directory selection 
+* Graphical save directory selection
+* Proper error handling and warning when entering invalid level codes
 
 ### Screenshots of GUI Version
 ![Main Window](<GUI Images/Main Window.png>)
