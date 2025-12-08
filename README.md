@@ -27,6 +27,28 @@ This tool only replaces the **level data** and not the **level metadata**. As su
 
 Some of these could be fixed by downloading further data from the MariOver API, but no promises I will get to that
 
+
+ ## Updates
+ **2025-12-08**:
+
+As a test, I wanted to see how quickly vibe-coding could accomplish this same task. Literally in one prompt, ChatGPT recreated my original script and added proper error catching, like if you enter an invalid level code to download. Within only a few more prompts, I was able to get a fully functioning GUI version with many nice features. While coding the script was a good bit of practice, using every tool available really does go a long way.
+
+The GUI version is much nicer! It has the following features:
+
+* Shows full level information before downloading, including course name, description, maker, and much, much more
+* Shows the course thumbnail upon fetching information
+* Can show full course overview thumbnail
+* Can download either thumbnail
+* Graphical save directory selection 
+
+### Screenshots of GUI Version
+![Main Window](<GUI Images/Main Window.png>)
+
+![Course Overview](<GUI Images/Course Overview.png>)
+
+Anyway, I know people are against vibe-coding generally, so I wanted to be upfront about it. No guarantees on the coding, even the script I made myself.
+
+
 # How To Use
 0) **MAKE SURE YOUR EMULATOR IS CLOSED BEFORE INJECTING FILES**
 1) Download and extract or clone this repository
@@ -39,7 +61,7 @@ Some of these could be fixed by downloading further data from the MariOver API, 
 4) `python -m venv venv` to set up the venv
 5) If on Windows: `venv/Scripts/activate` to activate the env
 6) `pip install -r requirements.txt`
-7) `python smm2-level-downloader-injector.py`
+7) `python smm2-level-downloader-injector.py` or `python smm2-level-downloader-gui.py`
 8) Enter the level ID of the level you want to download in the format `ABCDEFGHI`, not case-sensitive
 9) Select the level slot to inject this level
 
