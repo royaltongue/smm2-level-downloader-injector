@@ -28,7 +28,7 @@ This tool only replaces the **level data** and not the **level metadata**. As su
 Some of these could be fixed by downloading further data from the MariOver API, but no promises I will get to that
 
 # How To Use
-0) **MAKE SURE YOUR EMULATROR IS CLOSED BEFORE INJECTING FILES**
+0) **MAKE SURE YOUR EMULATOR IS CLOSED BEFORE INJECTING FILES**
 1) Download and extract or clone this repository
 2) Open `smm2-save-directory.txt` and set your where you would like these levels to be saved to
 
